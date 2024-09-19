@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bear.mapper.TestMapper">
+    <insert id="insertData">
+        insert into qdd_article (category_id, category_type, title, keyword, has_top, release_time, has_push,
+                                          approve_status, content, view_num, unsolve_num, solve_num, has_deleted)
+
+        values (1, 1, '测试', 1, 1, null, 1,1,1,1,1,1,true)
+    </insert>
+
+</mapper>
