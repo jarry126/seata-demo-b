@@ -17,6 +17,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableAutoDataSourceProxy
 @EnableFeignClients
 @MapperScan("com.bear.mapper")
+@EnableDubbo
 public class SpringBootSeateQiduoduoDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootSeateQiduoduoDemoApplication.class, args);
